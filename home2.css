@@ -90,7 +90,7 @@ main {
 }
 
 .block {
-    margin: 1% 10%;
+    margin: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,7 +98,32 @@ main {
     background-color: #D9D9D9;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #bbb7b7;
+    padding: 1%;
+    border: #3d3d3d 3px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #3d3d3d;
+}
+
+.fotoimg {
+    width: 444px;
+    height: 400px;
+}
+

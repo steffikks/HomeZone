@@ -102,3 +102,53 @@ a {
     text-decoration: none;
     color: black;
 }
+
+main {
+    background: linear-gradient(to right, grey, white, black, grey);
+    padding: 2% 20%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 2%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+textarea {
+    width: 350px;
+    height: 133px;
+    text-align: center;
+    margin-bottom: 2%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    resize: none;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 2%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
